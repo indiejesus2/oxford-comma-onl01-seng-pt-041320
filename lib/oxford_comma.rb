@@ -4,6 +4,6 @@ def oxford_comma(fruit)
   elsif (fruit.size == 3)
     return fruit.join(" , ")
   else
-    return fruit
+    return fruit[0]
   end
 end
