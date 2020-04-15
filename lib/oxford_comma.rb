@@ -1,5 +1,5 @@
-def oxford_comma(array)
-  if(array.size == 1)
+def oxford_comma(fruit)
+  if(fruit.size == 1)
     return array.join(" and ")
   end
 end
